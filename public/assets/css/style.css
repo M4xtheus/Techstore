@@ -1,0 +1,96 @@
+/* Fundo geral escuro */
+body {
+    background-color: #0f1115;
+    color: #e1e1e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar (Menu Superior) */
+.navbar-custom {
+    background-color: #1a1d24 !important;
+    border-bottom: 2px solid #3b82f6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+    color: #3b82f6 !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* Título da Página */
+h2.page-title {
+    font-weight: 700;
+    color: #ffffff;
+    border-left: 5px solid #3b82f6;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+/* Cards de Produtos */
+.card-produto {
+    background-color: #1a1d24;
+    border: 1px solid #2d323e;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.card-produto:hover {
+    transform: translateY(-8px);
+    border-color: #3b82f6;
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+/* Imagem do Card */
+.card-produto .img-container {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Mantém o quadrado */
+    background-color: #ffffff; /* Fundo branco para combinar com a foto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px; /* Dá uma respirada */
+}
+
+.card-produto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Mostra a imagem INTEIRA, sem cortar */
+    transition: transform 0.3s ease;
+}
+
+.card-produto:hover img {
+    transform: scale(1.05);
+}
+
+/* Textos do Card */
+.card-title {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.badge-categoria {
+    background-color: #2d323e;
+    color: #a1a1aa;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.preco {
+    color: #10b981; /* Verde suave */
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+/* Botões */
+.btn-comprar {
+    background-color: transparent;
+    color: #3b82f6;
+    border: 2px solid #3b82f6;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+.btn-comprar:hover {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
